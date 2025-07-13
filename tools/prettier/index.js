@@ -1,7 +1,7 @@
 /**
- * @type {(overrides?: import("prettier").Config) => import("prettier").Config}
+ * @type {(params?: import("prettier").Config) => import("prettier").Config}
  */
-export const prettier = (overrides = {}) => ({
+export const prettier = (params) => ({
   printWidth: 100,
   tabWidth: 2,
   singleQuote: true,
@@ -10,5 +10,5 @@ export const prettier = (overrides = {}) => ({
   semi: true,
   jsxSingleQuote: true,
   useTabs: false,
-  ...overrides
+  ...params
 });
