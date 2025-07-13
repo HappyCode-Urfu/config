@@ -1,0 +1,25 @@
+{
+  "name": "@happycode-core/prettier",
+  "type": "module",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": false,
+  "description": "@happycode-core/prettier",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write \"../../**/*.{js,ts,tsx,json,md}\""
+  },
+  "author": {
+    "name": "HappyCode",
+    "url": "https://github.com/konoplitsky"
+  },
+  "repository": {
+    "url": "https://github.com/HappyCode-Urfu/config"
+  },
+  "dependencies": {
+    "prettier": "^3.6.2"
+  },
+  "peerDependencies": {
+    "prettier": "^3.6.2"
+  }
+}
