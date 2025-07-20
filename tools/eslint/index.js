@@ -52,6 +52,7 @@ export const eslint = () =>
           return acc;
         }, {}),
         'happycode-core/only-export-components': 'off',
+        'happycode-core/react-in-jsx-scope': 'off',
         'happycode-core/function-component-definition': [
           'error',
           {
