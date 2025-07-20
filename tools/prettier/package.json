@@ -3,11 +3,13 @@
   "type": "module",
   "version": "1.0.0",
   "license": "MIT",
-  "private": false,
   "description": "@happycode-core/prettier",
   "main": "index.js",
   "scripts": {
     "format": "prettier --write \"../../**/*.{js,ts,tsx,json,md}\""
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "author": {
     "name": "HappyCode",
