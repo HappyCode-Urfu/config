@@ -3,6 +3,13 @@
   "type": "module",
   "version": "1.0.0",
   "description": "eslint",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --fix"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "author": {
     "name": "HappyCode",
     "url": "https://github.com/konoplitsky"
@@ -10,10 +17,6 @@
   "license": "MIT",
   "repository": {
     "url": "https://github.com/HappyCode-Urfu/config"
-  },
-  "main": "index.js",
-  "scripts": {
-    "lint": "eslint . --fix"
   },
   "dependencies": {
     "@antfu/eslint-config": "^4.16.2",
