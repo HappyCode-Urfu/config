@@ -1,5 +1,5 @@
 # :milky_way: Happy code config
 
-## Инструменты
+## Пакеты
 - Eslint
 - Prettier
